@@ -452,3 +452,11 @@ body .twitter svg {
   height: 32px;
   fill: #fff;
 }
+@media (max-width: 550px) {
+    .grid {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+    }
+
+}
