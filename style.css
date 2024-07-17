@@ -426,13 +426,16 @@ html {
 }
 
 body {
-  min-height: 100vh;
-  display: flex;
-  font-family: "Inter", Arial;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--background-color);
-  overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    font-family: "Inter", Arial;
+    background-color: var(--background-color);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
 }
 body:before {
   content: "";
