@@ -29,6 +29,9 @@ body {
   --card-hover-icon-border-color: rgba(52, 211, 153, 0.2);
   --blur-opacity: .01;
 }
+.hi{
+  color: white;
+}
 body.light {
   --background-color: #FAFAFA;
   --text-color: #52525B;
